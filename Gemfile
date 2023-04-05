@@ -6,6 +6,7 @@ gem 'omniauth'
 gem "omniauth-rails_csrf_protection"
 gem 'omniauth-discord'
 
+gem "dotenv-rails", groups: [:development, :test]
 
 ruby "3.0.3"
 
